@@ -1,0 +1,168 @@
+@charset "UTF-8";
+*{
+    margin:0px;
+    padding:0px;
+    border: none;
+    font-family: times new roman, verdana;
+}
+
+
+
+#conteudo{
+    margin-top: 2vw;
+    background-image: url(../imagens/fundo.png);
+    background-position: center;
+    background-size:90%;
+    background-attachment: fixed;
+}
+
+
+#rodape{
+    clear: both;
+}
+
+header{
+	height:38vw;
+	float:center;
+	background-image: url(../imagens/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+
+.pagina {
+	font-style:oblique;
+	font-weight: bolder;
+	font-size: 1.8vw;
+	float:center;
+	text-align: center;
+	color: #ffffff;
+	line-height:2500%;
+}
+
+
+nav{
+	width: 100%;
+	float:right;
+	background-color:#0054a6;
+	height:42px;
+}
+
+nav ul{
+	width:100%;
+	list-style-type:none;
+	float:left;
+}
+
+
+nav li{
+	width:11vw;
+	float:left;
+}
+
+nav a{
+
+	color:#fff;
+	text-decoration:none;
+    font-size: 1.5vw;
+	width:11vw;
+	float:left;
+	text-align:center;
+	line-height:43px;
+	border-right: 1px solid #666;
+	transition:all 0.9s;
+}
+
+nav a:hover{
+    width: 11vw;
+	background-color:#FFC125;
+
+}
+
+nav li:last-child a{
+	border:none;
+}
+
+#fili{
+    margin-left: 20%;
+	color:#000000;
+	float:center;
+	font-weight: bold;
+	font-size:2vw;
+}
+
+#contato{
+    margin-left: 20%;
+	color:#000000;
+	float:center;
+	font-weight: bold;
+	font-size:2vw;
+}
+
+#mail{
+    color:#0000ff;
+    
+}
+
+#map{
+    width: 10vw;
+    height: 10vw;
+    
+}
+
+article{ 
+	width:100%;
+	float:left;
+	background-color:#ffff;
+}
+
+fieldset{
+    margin-left: 20%;
+}
+
+.legenda{
+    color:#000000;
+    font-size: 29px;
+}
+
+#termos{
+    font-size: 25px;
+    color: #0000ff;
+}
+
+#txtmail{
+    font-size: 1.1vw;
+    height: 2vw;
+    width: 20vw;
+    
+}
+
+.campos{
+    color: #0054a6;
+    height: 1.5vw;
+    width: 4vw;
+    font-size: 1.1vw;
+}
+
+#coment{
+    font-size: 1.3vw;
+    
+}
+
+#autoria{
+    text-align: center;
+    float: center;
+    font-size: 1vw;
+}
+
+#empre{
+    color:white;
+    text-align: center;
+    font-size: 1vw;
+}
+
+footer{    
+    background-color:#0054a6;
+    padding:7%;
+    color: white;
+}

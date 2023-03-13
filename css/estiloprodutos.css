@@ -1,0 +1,215 @@
+@charset "UTF-8";
+*{
+    margin:0px;
+    padding:0px;
+    border: none;
+    font-family: times new roman, verdana;
+}
+
+#tudo{
+	width:100%;
+}
+
+#conteudo{
+    margin-top: 2vw;
+    background-image: url(../imagens/fundo.png);
+    background-position: center;
+    background-size:90%;
+    background-attachment: fixed;
+}
+
+
+
+#rodape{
+    clear: both;
+}
+
+header{
+	height:38vw;
+	float:center;
+	background-image: url(../imagens/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+   
+}
+
+
+.pagina {
+	font-style:oblique;
+	font-weight: bolder;
+	font-size: 1.8vw;
+	float:center;
+	text-align: center;
+	color: #ffffff;
+	line-height:2500%;
+}
+
+
+nav{
+	width: 100%;
+	float:right;
+	/*cor do menu*/
+	background-color: #0054a6;
+	height:42px;
+}
+
+nav ul{
+	width:100%;
+	list-style-type:none;
+	float:left;
+}
+
+nav li{
+	width:11vw;
+	float:left;
+}
+
+nav a{
+	
+	color:#fff;
+	text-decoration:none;
+    font-size: 1.5vw;
+	width:11vw;
+	float:left;
+	text-align:center;
+	line-height:43px;
+	border-right: 1px solid #666;
+	transition:all 0.9s;
+}
+
+nav a:hover{
+	
+    width: 11vw;
+	background-color:#FFC125;
+
+}
+
+nav li:last-child a{
+	border:none;
+}
+
+
+table, td, th, tfoot{
+	border:solid 1px #000; 
+    padding:5px;
+    margin-right: 5vw;
+    
+}
+
+
+tr, td, th{
+	background-color:#FFA500;
+}
+
+#voltar{
+    font-size: 35px;
+    color: #ffffff;  
+}
+
+figure{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 5px black;
+    color: blue;
+    text-decoration: underline;
+    
+}
+
+figure img{
+    width: 15vw;
+    height: 15vw;
+}
+
+p{
+    text-align: center;
+    text-indent: 50px;
+}
+
+ figure figcaption .desc {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+     
+    
+}
+
+.desc:hover{
+    opacity: 1;
+}
+
+table, tfoot{
+	border:solid 1px #0000ff; 
+    padding:3vw;
+    color: #ffffff;
+    margin-left: 3vw;
+    
+}
+
+#empre{
+    color:white;
+    text-align: center;
+    font-size: 1vw;
+    margin-left:0;
+}
+
+
+caption{
+	font-size:2vw;
+    color:#000000;   
+    margin-left: 5vw;
+}
+
+colgroup{
+	background:#F60;
+}
+
+table{
+     margin-left: 19vw;
+}
+
+tr, th, td{
+	border-collapse:collapse;
+	border-width:2px;
+	border-style:solid;
+	border-color:#0000FF;
+	width:225px;
+	text-align:center;
+    margin-left: 29vw;
+   
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+#voltar{
+    color:#000000;
+}
+
+article{ 
+	width:100%;
+	float:left;
+	background-color:#ffff;
+}
+
+#autoria{
+    text-align: center;
+    float: center;
+    font-size: 1vw;
+}
+
+
+footer{    
+    background-color:#0054a6;
+    padding:7%;
+    color: white;
+}
